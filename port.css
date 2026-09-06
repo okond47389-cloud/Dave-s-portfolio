@@ -1,0 +1,862 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:768px) {
+    /* HEADER */
+    header >nav >img{
+     width: 60px;
+    }
+    header >.header_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+   header >.header_container >.con1 >h3{
+        font-size: 10px;
+    }
+    .header_container >.con1 >h1{
+        font-size: 18px;
+    }
+    .header_container >.con1 >p{
+        font-size: 7px;
+        width: 80%;
+    }
+    .header_container >.con1 >.btn >#btn1 >button{
+        width: 60px;
+        height: 20px;
+        font-size: 6px;
+       
+    }
+        .header_container >.con1 >.btn >#btn2 >button{
+        width: 60px;
+        height: 20px;
+        font-size: 6px;
+    }
+    .header_container >.con1 >.icons >img{
+        width: 10px;
+
+    }
+    .header_container >.con2 >img{
+        width:150px;
+        height: 200px;
+    }
+    /* MAIN */
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    main >.set1 >h3{
+        font-size: 10px;
+    }
+    main >.set1 >h1{
+        font-size: 18px;
+    }
+    main >.set1 >p{
+        font-size: 7px;
+        width: 50%;
+    }
+    main >.set2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    main >.set2 >#im1 >img{
+        width: 20px;
+    }
+    main >.set2 >#im1 >p{
+        font-size: 10px;
+        width: 50%;
+    }
+
+    main >.set2 >#im2 >img{
+        width: 20px;
+    }
+    main >.set2 >#im2 >p{
+        font-size: 10px;
+        width: 70%;
+    }
+        main >.set2 >#im3 >img{
+        width: 20px;
+    }
+    main >.set2 >#im3 >p{
+        font-size: 10px;
+        width: 50%;
+    }
+    /* SECTION */
+    section >.sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+    }
+    section >.sec1 >#part1 >h3{
+        font-size: 10px;
+       
+    }
+    section >.sec1 >#part1 >h1{
+        font-size: 18px;
+    }
+    section >.sec1 >#part2 >p{
+        font-size: 7px;
+        width: 60%;
+    }
+    section >.sec2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: calc(30px);
+        column-gap: calc(20px);
+    }
+    section >.sec2 >#ma1 >img{
+        width: 70px;
+        height: 50px;
+    }
+    section >.sec2 >#ma1 >p{
+        font-size: 10px;
+    }
+    section >.sec2 >#ma2 >img{
+        width: 50px;
+        height: 50px;
+    }
+    section >.sec2 >#ma2 >p{
+        font-size: 10px;
+    }
+        section >.sec2 >#ma3 >img{
+        width: 50px;
+        height: 50px;
+    }
+    section >.sec2 >#ma3 >p{
+        font-size: 10px;
+    }
+    section >.sec2 >#ma4 >img{
+        width: 50px;
+        height: 50px;
+    }
+    section >.sec2 >#ma4 >p{
+        font-size: 10px;
+    }
+        section >.sec2 >#ma5 >img{
+        width: 50px;
+        height: 50px;
+    }
+    section >.sec2 >#ma5 >p{
+        font-size: 10px;
+    }
+    section >.sec3 >.one{
+        display: flex;
+        justify-content: space-between;
+        gap: calc(0px);
+        column-gap: calc(0);
+    }
+    section >.sec3 >.one >#what1 >h3{
+        font-size: 10px;
+    }
+    section >.sec3 >.one >#what1 >h1{
+        font-size: 16px;
+        width: 90%;
+        
+    }
+    section >.sec3  >.one >#what2 >p{
+        font-size: 8px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    section >.sec3 >.two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: calc(10px);
+        column-gap: calc(0px);
+    }
+    section >.sec3 >.two >#img1 >img{
+        width: 20px;
+    }
+    section >.sec3 >.two >#img1 >h2{
+        font-size:10 px;
+      
+    }
+    section >.sec3 >.two >#img1 >p{
+        font-size: 8px;
+        width: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 40px;
+    }
+        section >.sec3 >.two >#img2 >img{
+        width: 20px;
+    }
+    section >.sec3 >.two >#img2 >h2{
+        font-size: 10px;
+    }
+    section >.sec3 >.two >#img2 >p{
+        font-size: 8px;
+        width: 50%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 40px;
+    }
+        section >.sec3 >.two >#img3 >img{
+        width: 20px;
+    }
+    section >.sec3 >.two >#img3 >h2{
+        font-size: 10px;
+    }
+    section >.sec3 >.two >#img3 >p{
+        font-size: 8px;
+        width: 50%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 40px;
+    }
+        section >.sec3 >.two >#img4 >img{
+        width: 20px;
+    }
+    section >.sec3 >.two >#img4 >h2{
+        font-size: 10px;
+    }
+    section >.sec3 >.two >#img4 >p{
+        font-size: 8px;
+        width: 55%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 40px;
+    }
+
+    /* CONTENT */
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content >#con1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content >#con1{
+        margin-top: 20px;
+    }
+    .content >#con1 >h3{
+        font-size: 10px;
+    }
+    .content >#con1 >h1{
+        font-size: 18px;
+    }
+    .content >#con1 >p{
+        font-size: 8px;
+        width: 60%;
+    }
+    .content >#con2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .content >#con2 >#imag1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(10px);
+        margin-top: 20px;
+    }
+    .content >#con2 >#imag1 >img{
+        width: 10px;
+    }
+    .content >#con2 >#imag1 >p{
+        font-size: 8px;
+    }
+        .content >#con2 >#imag2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(10px);
+        margin-top: 20px;
+    }
+    .content >#con2 >#imag2 >img{
+        width: 10px;
+    }
+    .content >#con2 >#imag2 >p{
+        font-size: 8px;
+    }
+        .content >#con2 >#imag3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(10px);
+        margin-top: 20px;
+    }
+    .content >#con2 >#imag3 >img{
+        width: 10px;
+    }
+    .content >#con2 >#imag3 >p{
+        font-size: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: calc(30px);
+    }
+    footer >.foot1 >img{
+        width: 15px;
+    }
+    footer >.foot1 >p{
+        font-size: 7px;
+    }
+    footer >.foot2 >p{
+        font-size: 7px;
+        width: 100%;
+    }
+}
+
+
+
+header >nav{
+    background:  #EEF0F5;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+nav >img{
+    width: 80px;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 5em;
+}
+.con1{
+    width: 50%;
+    margin-left: 20px;
+   margin-bottom: 5em;
+}
+.con1 >h3{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #5B21B6;
+}
+.con1 >h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    width: 40%;
+    margin-top: 10px;
+}
+.con1 >p{
+    font-size: 12px;
+    font-weight: 400;
+      font-family: "Space Grotesk", sans-serif;
+    width: 55%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.btn{
+    display: flex;
+    margin-top: 15px;
+    gap: calc(10px);
+}
+#btn1  >button{
+  width: 110px;
+  height: 30px;
+  background: #5B21B6;
+  color: #fff;
+  font-size: 9px;
+  font-family: "Inter", sans-serif;
+  font-weight: 540;
+  border-radius: 5px;
+  border: #5B21B6 solid;
+  cursor: pointer;
+}
+#btn1  >button >a{
+    text-decoration: none;
+    color: #fff;
+}
+#btn2  >button{
+  width: 110px;
+  height: 30px;
+  background: #fff;
+  color: black;
+  font-size: 9px;
+  font-family: "Inter", sans-serif;
+  font-weight: 540;
+  border-radius: 5px;
+  border:1.5px black solid;
+  cursor: pointer;
+}
+#btn2  >button >a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    margin-top: 20px;
+    gap: calc(10px);
+}
+.icons >img{
+    flex-direction: row;
+   width: 17px;
+   cursor: pointer;
+}
+.con2 >img{
+    width: max-content;
+    height: 450px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e9ebf1;
+    height: 200px;
+}
+
+.set1{
+    margin-left: 40px;
+}
+.set1 >h3{
+   font-size: 14px;
+   color:  #5B21B6;
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+}
+.set1 >h1{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+}
+.set1 >p{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    width: 45%;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.set2{
+    display: flex;
+    gap: calc(40px);
+}
+#im1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#im1 >img{
+    width: 40px;
+    margin-right: 50px;
+}
+#im1 >p{
+    font-size: 13px;
+    width: 30%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+#im2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#im2 >img{
+    width: 40px;
+    margin-right: 50px;
+}
+#im2 >p{
+    font-size: 13px;
+    width:80%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+#im3 >img{
+    width: 40px;
+    margin-right: 50px;
+}
+#im3 >p{
+    font-size: 13px;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+section{
+    margin-top: 50px;
+}
+
+.sec1{
+    display:flex;
+    justify-content: space-around;
+    gap: calc(60px);
+    
+}
+#part1 >h3{
+    font-size: 14px;
+    color: #5B21B6;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+#part1 >h1{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+#part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#part2 >p{
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: calc(100px);
+}
+
+#ma1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ma1 >img{
+    width: 80px;
+    height: 100px;
+}
+#ma1 >p{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+#ma2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ma2>img{
+    width: 80px;
+    height: 100px;
+}
+#ma2 >p{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+#ma3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ma3 >img{
+    width: 80px;
+    height: 100px;
+}
+#ma3 >p{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+#ma4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ma4 >img{
+    width: 80px;
+    height: 100px;
+}
+#ma4 >p{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+#ma5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ma5 >img{
+    width: 80px;
+    height: 100px;
+}
+#ma5 >p{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.sec3{
+    margin-top: 30px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#what1{
+    margin-left: 90px;
+}
+#what1 >h3{
+    font-size: 14px ;
+    color: #5B21B6;
+    font-family: "Inter", sans-serif;
+}
+#what1 >h1{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+
+}
+#what2 >P{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    width: 65%;
+    opacity: 0.7;
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+#img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img1 >img{
+    width: 40px;
+}
+#img1 >h2{
+    font-size:  16px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #5B21B6;
+    font-family: 600;
+}
+#img1 >P{
+   font-size: 12px;
+   opacity: 0.7;
+     font-family: "Inter", sans-serif;
+     width: 45%;
+}
+#img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img2 >img{
+    width: 40px;
+}
+#img2 >h2{
+    font-size:  16px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #5B21B6;
+    font-family: 500;
+}
+#img2 >P{
+   font-size: 12px;
+   opacity: 0.7;
+     font-family: "Inter", sans-serif;
+     width: 65%;
+}
+#img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img3 >img{
+    width: 40px;
+}
+#img3 >h2{
+    font-size:  16px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #5B21B6;
+    font-family: 500;
+}
+#img3 >P{
+   font-size: 12px;
+   opacity: 0.7;
+     font-family: "Inter", sans-serif;
+     width: 70%;
+}
+#img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img4 >img{
+    width: 40px;
+}
+#img4 >h2{
+    font-size:  16px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #5B21B6;
+    font-family: 600;
+}
+#img4 >P{
+   font-size: 12px;
+   opacity: 0.7;
+     font-family: "Inter", sans-serif;
+     width: 75%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e9ebf1;
+    margin-top: 30px;
+}
+
+#con1{
+    margin-top: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+#con1 >h3{
+    font-size: 14px;
+    color: #5B21B6;
+    font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#con1 >h1{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+}
+#con1 >p{
+    font-size: 12px;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    opacity: 0.7;
+    line-height: 15px;
+}
+#con2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+#con2 >#imag1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(10px);
+    margin-top: 40px;
+}
+#con2 >#imag1 >img{
+    width: 25px;
+}
+#con2 >#imag1 >p{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;    
+}
+#con2 >#imag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(10px);
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#con2 >#imag2 >img{
+    width: 25px;
+}
+#con2 >#imag2 >p{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;    
+}
+#con2 >#imag3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(10px);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#con2 >#imag3 >img{
+    width: 25px;
+}
+#con2 >#imag3 >p{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #10111F;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    gap: calc(20px);
+}
+.foot1 >img{
+    width: 30px;
+    border-radius: 50%;
+}
+.foot1 >p{
+    font-size: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif; 
+    font-weight: 600;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2 >p{
+    font-size: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif; 
+    margin-right: 40px;
+    font-weight: 600;
+}
