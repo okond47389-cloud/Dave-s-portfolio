@@ -6,10 +6,10 @@
 @media (max-width:768px) {
     /* HEADER */
     header >nav >img{
-     width: 30px;
+     width: 50px;
     }
     header >.header_container{     
-        min-height: 100px;
+        min-height: 50px;
         width: 100%;
     }
     header >.header_container >.con1{
@@ -48,19 +48,19 @@
     gap: 5px;
     }
     .header_container >.con1 >.btn >#btn1 >button{
-        width: 70px;
-      
+        width: 90px;
+        margin-left: 20px;
+        font-size: 8px;
         height: 20px;
-        font-size: 6px;
-       
     }
         .header_container >.con1 >.btn >#btn2 >button{
-        width: 70px;
+        width: 90px;
         height: 20px;
-        font-size: 6px;
+        font-size: 8px;
+        margin-left: 20px;
     }
     .header_container >.con1 >.icons >img{
-        width: 10px;
+        width: 15px;
 
     }
     .header_container >.con2 >img{
@@ -84,7 +84,7 @@
     }
     main >.set1 >p{
         font-size: 12px;
-        width: 80%;
+        width: 100%;
     }
     main >.set2{
         display: flex;
@@ -340,18 +340,18 @@
     footer {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        
+       
     }
     footer >.foot1{
         margin-top: 10px;
     }
     footer >.foot1 >img{
         width: 20px;
+        margin-right: 0;
     }
     footer >.foot1 >p{
-        font-size: 7Px;
-         margin-right: 30px;
+        font-size: 7px;
+        margin-right: 10px;
     }
     footer >.foot2{
         margin-top: 10px;
@@ -363,17 +363,7 @@
 
 
 
-header >nav{
-    margin-left: 20px;
-}
-nav >img{
-    width: 50px;
-    border-radius: 50%;
-    animation-name: slideleft;
-    animation-duration: 2s;
-    margin-bottom: -20px;
-  
-}
+
 
 .header_container{
     display: flex;
@@ -381,17 +371,12 @@ nav >img{
     align-items: center;
     min-height: 700px;
     width: 100%;
-    background-image: url(dave_dev_portfolio_assets/images/img\ laptop.png)
-;
+    background-image: url(dave_dev_portfolio_assets/images/img\ laptop.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     align-items: center;
-
-    margin-top: 20px;
-
     animation-name: appear;
     animation-duration: 1.5s;
     animation-timing-function: linear;
@@ -422,7 +407,8 @@ nav >img{
    margin-bottom: 5em;
 }
 .con1 >h3{
-    font-size: 12px;
+    margin-top: 5em;
+    font-size: 14px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
     color: #5B21B6;
@@ -432,15 +418,19 @@ nav >img{
     font-weight: 700;
     font-family: "Inter", sans-serif;
     width: 40%;
-    margin-top: 10px;
+    color: #10111F;
+    margin-top: px;
 }
 .con1 >p{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
       font-family: "Space Grotesk", sans-serif;
     width: 55%;
     opacity: 0.9;
     margin-top: 10px;
+}
+.con1 >p >span{
+    color: #5B21B6;
 }
 
 .btn{
@@ -573,18 +563,16 @@ main{
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
-section{
-    margin-top: 50px;
+
+section >.sec1{
+    display:flex;
+    justify-content: space-around;
+    gap: calc(60px);
+        margin-top: 50px;
     animation-name: appear;
     animation-timeline: view();
     animation-range: entry 0;
     animation-timing-function:ease-in-out;
-}
-
-.sec1{
-    display:flex;
-    justify-content: space-around;
-    gap: calc(60px);
     
 }
 #part1 >h3{
@@ -618,6 +606,11 @@ section{
     align-items: center;
     margin-top: 20px;
     gap: calc(100px);
+        margin-top: 50px;
+    animation-name: appear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    animation-timing-function:ease-in-out;
 }
 
 #ma1{
