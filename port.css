@@ -27,7 +27,7 @@
     }
     .header_container >.con1 >p{
         font-size: 10px;
-        width: 90%;
+        width: 95%;
         color: #fff;
     }
     .header_container >.con1 >.btn{
@@ -41,18 +41,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 7px;
     }
     .header_container >.con1 >.btn >#btn1 >button{
         width: 90px;
         margin-left: 20px;
-        font-size: 8px;
+        font-size: 9.5px;
         height: 20px;
     }
         .header_container >.con1 >.btn >#btn2 >button{
         width: 90px;
         height: 20px;
-        font-size: 8px;
+        font-size: 9.5px;
         margin-left: 20px;
     }
     .header_container >.con1 >.icons >img{
@@ -102,7 +102,7 @@
     }
     main >.set2 >#im2 >p{
         font-size: 12px;
-        width: 80%;
+        width: 90%;
     }
         main >.set2 >#im3 >img{
         width: 20px;
@@ -130,71 +130,78 @@
         width: 100%;
     }
     section >.sec2{
-        display: flex;
+        display: grid;
+        grid-template-columns: 180px 180px;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        row-gap: calc(30px);
-        column-gap: calc(20px);
+        row-gap: calc(20px);
     }
     section >.sec2 >#ma1 >img{
-        width: 70px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     }
     section >.sec2 >#ma1 >p{
         font-size: 12px;
     }
     section >.sec2 >#ma2 >img{
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     }
     section >.sec2 >#ma2 >p{
         font-size: 12px;
     }
         section >.sec2 >#ma3 >img{
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     }
     section >.sec2 >#ma3 >p{
         font-size: 12px;
     }
     section >.sec2 >#ma4 >img{
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     }
     section >.sec2 >#ma4 >p{
         font-size: 12px;
-    }
-        section >.sec2 >#ma5 >img{
-        width: 50px;
-        height: 50px;
     }
     section >.sec2 >#ma5 >p{
         font-size: 12px;
     }
     section >.sec3 >.one{
         display: flex;
-        justify-content: space-between;
-
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    section >.sec3 >.one >#what1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
     section >.sec3 >.one >#what1 >h3{
         font-size: 12px;
     }
     section >.sec3 >.one >#what1 >h1{
-        font-size: 20px;
+        font-size: 18px;
         width: 100%;
-        
     }
-    section >.sec3  >.one >#what2 >p{
-        font-size: 10px;
-        width: 70%;
-        margin-left: 40px;
-    }
-    section >.sec3 >.two{
+    section >.sec3 >.one >#what2{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
+    }
+    section >.sec3  >.one >#what2 >p{
+        font-size: 10px;
+        width: 50%;
+        margin-left: 40px;
+    }
+    section >.sec3 >.two{
+        display: grid;
+        grid-template-columns:180px 180px ;
+        justify-content: center;
+        align-items: center;
         row-gap: calc(10px);
         column-gap: calc(0px);
     }
@@ -206,8 +213,8 @@
       
     }
     section >.sec3 >.two >#img1 >p{
-        font-size: 11px;
-        width: 55%;
+        font-size: 10px;
+        width: 75%;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -220,8 +227,8 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img2 >p{
-        font-size: 11px;
-        width: 50%;
+        font-size: 10px;
+        width: 75%;
         display: flex;
        justify-content: center;
        align-items: center;
@@ -234,8 +241,8 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img3 >p{
-        font-size: 11px;
-        width: 50%;
+        font-size: 10px;
+        width: 60%;
         display: flex;
        justify-content: center;
        align-items: center;
@@ -248,8 +255,8 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img4 >p{
-        font-size: 11px;
-        width: 55%;
+        font-size: 10px;
+        width: 70%;
         display: flex;
        justify-content: center;
        align-items: center;
@@ -335,25 +342,24 @@
     /* FOOTER */
     footer {
         display: flex;
-        justify-content: space-between;
-       
+        justify-content: space-around;       
     }
     footer >.foot1{
         margin-top: 10px;
     }
     footer >.foot1 >h1{
-        font-size: 7px;
-        width: 100%;
+        font-size: 10px;
+        
     }
     footer >.foot1 >p{
-        font-size: 7px;
-        margin-right: 10px;
+        font-size: 8px;
+       
     }
     footer >.foot2{
         margin-top: 10px;
     }
     footer >.foot2 >p{
-        font-size: 7px; 
+        font-size: 8px; 
     }
 }
 
@@ -376,16 +382,7 @@
     animation-name: appear;
     animation-duration: 1.5s;
     animation-timing-function: linear;
-}
-@keyframes slideleft {
-    from{
-        transform: translateX(-300px);
-    }
-
-    to{
-        transform: translateX(0);
-    }
-}
+} 
 @keyframes appear {
     from{
         opacity: 0;
@@ -404,18 +401,17 @@
 }
 .con1 >h3{
     margin-top: 5em;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     font-family: "Inter", sans-serif;
-    color: #5B21B6;
+    color:#10111F;
 }
 .con1 >h1{
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: "Inter", sans-serif;
     width: 40%;
-    color: #10111F;
-    margin-top: px;
+    color: #5B21B6;
 }
 .con1 >p{
     font-size: 12px;
@@ -605,11 +601,10 @@ section >.sec1{
 
 .sec2{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
-    gap: calc(100px);
-        margin-top: 50px;
+    margin-top: 20px;  
+    margin-top: 50px;
     animation-name: appear;
     animation-timeline: view();
     animation-range: entry 0;
@@ -621,6 +616,7 @@ section >.sec1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+        
 }
 #ma1 >img{
     width: 80px;
@@ -680,22 +676,6 @@ section >.sec1{
     font-family: "Inter", sans-serif;
     font-weight: 500;
 }
-#ma5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#ma5 >img{
-    width: 80px;
-    height: 100px;
-}
-#ma5 >p{
-    font-size: 14px;
-    color: black;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-}
 .sec3{
     margin-top: 30px;
 }
@@ -716,7 +696,7 @@ section >.sec1{
 #what1 >h1{
     font-size: 25px;
     font-family: "Inter", sans-serif;
-    width: 80%;
+    width: 90%;
 
 }
 #what2 >P{
@@ -925,7 +905,7 @@ footer{
     color: #fff;
     font-family: "Inter", sans-serif; 
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 8px;
 }
 .foot1 >h1{
     font-size: 15px;
