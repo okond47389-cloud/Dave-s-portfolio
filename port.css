@@ -71,13 +71,13 @@
         flex-direction: column;
     }
     main >.sets >.set1 >h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     main >.sets >.set1 >h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     main >.sets >.set1 >p{
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
     }
     main >.sets >.set2{
@@ -208,14 +208,14 @@
         column-gap: calc(10px);
     }
     section >.sec3 >.two >#img1 >img{
-        width: 35px;
+        width: 30px;
     }
     section >.sec3 >.two >#img1 >h2{
-        font-size:16px;
+        font-size:15px;
       
     }
     section >.sec3 >.two >#img1 >p{
-        font-size: 12px;
+        font-size: 10px;
         width: 90%;
        display: flex;
        justify-content: center;
@@ -223,13 +223,13 @@
        margin-left: 20px;
     }
         section >.sec3 >.two >#img2 >img{
-        width: 35px;
+        width: 30px;
     }
     section >.sec3 >.two >#img2 >h2{
-        font-size: 16px;
+        font-size: 15px;
     }
     section >.sec3 >.two >#img2 >p{
-        font-size: 12px;
+        font-size: 10px;
         width: 95%;
         display: flex;
        justify-content: center;
@@ -237,13 +237,13 @@
       
     }
         section >.sec3 >.two >#img3 >img{
-        width: 35px;
+        width: 30px;
     }
     section >.sec3 >.two >#img3 >h2{
-        font-size: 16px;
+        font-size: 15px;
     }
     section >.sec3 >.two >#img3 >p{
-        font-size: 12px;
+        font-size: 10px;
         width: 100%;
         display: flex;
        justify-content: center;
@@ -251,13 +251,13 @@
        margin-left: 35px;
     }
         section >.sec3 >.two >#img4 >img{
-        width: 35px;
+        width: 30px;
     }
     section >.sec3 >.two >#img4 >h2{
-        font-size: 16px;
+        font-size: 15px;
     }
     section >.sec3 >.two >#img4 >p{
-        font-size: 12px;
+        font-size: 10px;
         width: 90%;
         display: flex;
        justify-content: center;
@@ -339,11 +339,14 @@
     .footer >#con2 >#imag3 >p{
         font-size: 12px;
     }
+    footer >.footer >.foot1{
+        margin-bottom: 20px;
+    }
     .footer >.foot1 >#foot >h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .footer >#foot2 >p{
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
