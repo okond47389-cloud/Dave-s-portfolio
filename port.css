@@ -5,58 +5,51 @@
 }
 @media (max-width:768px) {
     /* HEADER */
-    header >nav >img{
-     width: 50px;
-    }
     header >.header_container{     
-        min-height: 50px;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header >.header_container >.con1 >img{
+        width: 90px;
+        height: 90px;
     }
     header >.header_container >.con1{
-
-      margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
    header >.header_container >.con1 >h3{
-    margin-right: 50px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .header_container >.con1 >h1{
-        font-size: 20px;
-        width: 70%;
-        margin-right: 20px;
+        font-size: 25px;
     }
     .header_container >.con1 >p{
-        font-size: 10px;
-        width: 95%;
-        color: #fff;
+        font-size: 13px;
+        color: #10111F;
     }
     .header_container >.con1 >.btn{
-        display: flex;
-        width: 42px;
-        height: 42px;
-        border: 1px solid #e2e4ea;
-        border-radius: 8px;
-        background: #ffffff;
         cursor: pointer;
-        flex-direction: column;
+        display: flex;
         justify-content: center;
         align-items: center;
         gap: 7px;
     }
     .header_container >.con1 >.btn >#btn1 >button{
-        width: 90px;
-        margin-left: 20px;
-        font-size: 9.5px;
-        height: 20px;
+        width: 110px;
+        font-size: 10px;
     }
         .header_container >.con1 >.btn >#btn2 >button{
-        width: 90px;
-        height: 20px;
-        font-size: 9.5px;
-        margin-left: 20px;
+        width: 110px;
+        height: 40px;
+        padding: 10px 10px;
+        font-size: 10px;
     }
     .header_container >.con1 >.icons >img{
-        width: 15px;
+        width: 30px;
 
     }
     .header_container >.con2 >img{
@@ -70,44 +63,48 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 40px;
     }
-    main >.set1 >h3{
-        font-size: 14px;
-    }
-    main >.set1 >h1{
-        font-size: 20px;
-    }
-    main >.set1 >p{
-        font-size: 12px;
-        width: 100%;
-    }
-    main >.set2{
+    main >.sets{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 40px;
-        margin-top: 5px;
+        flex-direction: column;
     }
-    main >.set2 >#im1 >img{
+    main >.sets >.set1 >h3{
+        font-size: 20px;
+    }
+    main >.sets >.set1 >h1{
+        font-size: 25px;
+    }
+    main >.sets >.set1 >p{
+        font-size: 14px;
+        width: 100%;
+    }
+    main >.sets >.set2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    main >.sets >.set2 >#im1 >img{
         width: 20px;
     }
-    main >.set2 >#im1 >p{
+    main >.sets >.set2 >#im1 >p{
         font-size: 12px;
         width: 50%;
     }
 
-    main >.set2 >#im2 >img{
+    main >.sets >.set2 >#im2 >img{
         width: 20px;
     }
-    main >.set2 >#im2 >p{
+    main >.sets >.set2 >#im2 >p{
         font-size: 12px;
-        width: 90%;
     }
-        main >.set2 >#im3 >img{
+        main >.sets >.set2 >#im3 >img{
         width: 20px;
     }
-    main >.set2 >#im3 >p{
+    main >.sets >.set2 >#im3 >p{
         font-size: 12px;
         width: 60%;
     }
@@ -116,51 +113,58 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
+    }
+    section >.sec1 >#part1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     section >.sec1 >#part1 >h3{
-        font-size: 16px;
-       
+        font-size: 18px;
     }
     section >.sec1 >#part1 >h1{
         font-size: 20px;
     }
     section >.sec1 >#part2 >p{
-        font-size: 12px;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section >.sec1 >#part2 >p{
+        font-size: 11px;
     }
     section >.sec2{
         display: grid;
         grid-template-columns: 180px 180px;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        row-gap: calc(20px);
+        row-gap: calc(10px);
     }
     section >.sec2 >#ma1 >img{
         width: 90px;
-        height: 80px;
+        height: 90px;
     }
     section >.sec2 >#ma1 >p{
         font-size: 12px;
     }
     section >.sec2 >#ma2 >img{
         width: 90px;
-        height: 80px;
+        height: 90px;
     }
     section >.sec2 >#ma2 >p{
         font-size: 12px;
     }
         section >.sec2 >#ma3 >img{
         width: 90px;
-        height: 80px;
+        height: 90px;
     }
     section >.sec2 >#ma3 >p{
         font-size: 12px;
     }
     section >.sec2 >#ma4 >img{
         width: 90px;
-        height: 80px;
+        height: 90px;
     }
     section >.sec2 >#ma4 >p{
         font-size: 12px;
@@ -181,21 +185,19 @@
         flex-direction: column;
     } 
     section >.sec3 >.one >#what1 >h3{
-        font-size: 12px;
+        font-size: 18px;
     }
     section >.sec3 >.one >#what1 >h1{
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
     }
-    section >.sec3 >.one >#what2{
+    section >.sec3 >.one >#what2 >p{
         display: flex;
         justify-content: center;
         align-items: center;
     }
     section >.sec3  >.one >#what2 >p{
         font-size: 10px;
-        width: 50%;
-        margin-left: 40px;
     }
     section >.sec3 >.two{
         display: grid;
@@ -203,241 +205,222 @@
         justify-content: center;
         align-items: center;
         row-gap: calc(10px);
-        column-gap: calc(0px);
+        column-gap: calc(10px);
     }
     section >.sec3 >.two >#img1 >img{
-        width: 25px;
+        width: 35px;
     }
     section >.sec3 >.two >#img1 >h2{
-        font-size:15px;
+        font-size:16px;
       
     }
     section >.sec3 >.two >#img1 >p{
-        font-size: 10px;
-        width: 75%;
+        font-size: 12px;
+        width: 90%;
        display: flex;
        justify-content: center;
        align-items: center;
-       margin-left: 40px;
+       margin-left: 20px;
     }
         section >.sec3 >.two >#img2 >img{
-        width: 25px;
+        width: 35px;
     }
     section >.sec3 >.two >#img2 >h2{
-        font-size: 15px;
-    }
-    section >.sec3 >.two >#img2 >p{
-        font-size: 10px;
-        width: 75%;
-        display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 40px;
-    }
-        section >.sec3 >.two >#img3 >img{
-        width: 25px;
-    }
-    section >.sec3 >.two >#img3 >h2{
-        font-size: 15px;
-    }
-    section >.sec3 >.two >#img3 >p{
-        font-size: 10px;
-        width: 60%;
-        display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 40px;
-    }
-        section >.sec3 >.two >#img4 >img{
-        width: 25px;
-    }
-    section >.sec3 >.two >#img4 >h2{
-        font-size: 15px;
-    }
-    section >.sec3 >.two >#img4 >p{
-        font-size: 10px;
-        width: 70%;
-        display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 40px;
-    }
-
-    /* CONTENT */
-    .content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .content >#con1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .content >#con1{
-        margin-top: 20px;
-    }
-    .content >#con1 >h3{
         font-size: 16px;
     }
-    .content >#con1 >h1{
+    section >.sec3 >.two >#img2 >p{
+        font-size: 12px;
+        width: 95%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+      
+    }
+        section >.sec3 >.two >#img3 >img{
+        width: 35px;
+    }
+    section >.sec3 >.two >#img3 >h2{
+        font-size: 16px;
+    }
+    section >.sec3 >.two >#img3 >p{
+        font-size: 12px;
+        width: 100%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 35px;
+    }
+        section >.sec3 >.two >#img4 >img{
+        width: 35px;
+    }
+    section >.sec3 >.two >#img4 >h2{
+        font-size: 16px;
+    }
+    section >.sec3 >.two >#img4 >p{
+        font-size: 12px;
+        width: 90%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 10px;
+    }
+    /* FOOTER */
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer >#con1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer >#con1{
+        margin-top: 20px;
+    }
+    .footer >#con1 >h3{
+        font-size: 16px;
+    }
+    .footer >#con1 >h1{
         font-size: 20px;
     }
-    .content >#con1 >p{
+    .footer >#con1 >p{
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 12px;
         width: 100%;
     }
-    .content >#con2{
+    .footer >#con2{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin-left: 60px;
     }
-    .content >#con2 >#imag1{
+    .footer >#con2 >#imag1{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: calc(10px);
         margin-top: 20px;
     }
-    .content >#con2 >#imag1 >img{
+    .footer >#con2 >#imag1 >img{
         width: 14px;
     }
-    .content >#con2 >#imag1 >p{
+    .footer >#con2 >#imag1 >p{
         font-size: 12px;
     }
-        .content >#con2 >#imag2{
+        .footer >#con2 >#imag2{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: calc(10px);
         margin-top: 20px;
     }
-    .content >#con2 >#imag2 >img{
+    .footer >#con2 >#imag2 >img{
         width: 14px;
     }
-    .content >#con2 >#imag2 >p{
+    .footer >#con2 >#imag2 >p{
         font-size: 12px;
     }
-        .content >#con2 >#imag3{
+        .footer >#con2 >#imag3{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: calc(10px);
         margin-top: 20px;
     }
-    .content >#con2 >#imag3 >img{
+    .footer>#con2 >#imag3 >img{
         width: 14px;
     }
-    .content >#con2 >#imag3 >p{
+    .footer >#con2 >#imag3 >p{
         font-size: 12px;
     }
-
-    /* FOOTER */
-    footer {
-        display: flex;
-        justify-content: space-around;       
+    .footer >.foot1 >#foot >h2{
+        font-size: 20px;
     }
-    footer >.foot1{
-        margin-top: 10px;
-    }
-    footer >.foot1 >h1{
-        font-size: 10px;
-        
-    }
-    footer >.foot1 >p{
-        font-size: 8px;
-       
-    }
-    footer >.foot2{
-        margin-top: 10px;
-    }
-    footer >.foot2 >p{
-        font-size: 8px; 
+    .footer >#foot2 >p{
+        font-size: 15px;
     }
 }
 
-
-
-
-
-.header_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 700px;
-    width: 100%;
-    background-image: url(dave_dev_portfolio_assets/images/img\ laptop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
+body{
+    background-color: #E8ECF2;
+    color: #111111;
+}
+.header_container{ 
     animation-name: appear;
     animation-duration: 1.5s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
 } 
 @keyframes appear {
     from{
         opacity: 0;
         scale: 0.5;
     }
-
     to{
         opacity: 1;
         scale: 1;
     }
 }
 .con1{
-    width: 50%;
-    margin-left: 20px;
-   margin-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
 }
-.con1 >h3{
-    margin-top: 5em;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: "Inter", sans-serif;
-    color:#10111F;
-}
-.con1 >h1{
-    font-size: 60px;
-    font-weight: 800;
-    font-family: "Inter", sans-serif;
-    width: 40%;
-    color: #5B21B6;
-}
-.con1 >p{
-    font-size: 12px;
-    font-weight: 600;
-      font-family: "Space Grotesk", sans-serif;
-    width: 55%;
-    opacity: 0.9;
-    margin-top: 10px;
-}
-.con1 >p >span{
-    color: #5B21B6;
+.con1 >img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
 }
 
+.con1 >h3{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #10111F;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+} 
+.con1 >h1{
+    margin-top: 15px;
+    font-size: 70px;
+    color: #5B21B6;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+.con1 >p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    margin-top: 15px;
+    font-weight: 600;
+}
 .btn{
     display: flex;
-    margin-top: 15px;
+    margin-top: 30px;
     gap: calc(10px);
 }
 #btn1  >button{
-  width: 110px;
+  width: 140px;
+  padding: 18px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 30px;
   background: #5B21B6;
   color: #fff;
-  font-size: 9px;
+  font-size: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: 540;
+  font-weight: 600;
   border-radius: 5px;
   border: #5B21B6 solid;
   cursor: pointer;
@@ -446,31 +429,35 @@
     text-decoration: none;
     color: #fff;
 }
+
 #btn2  >button{
-  width: 110px;
+  width: 140px;
   height: 30px;
-  background: #fff;
-  color: black;
-  font-size: 9px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  font-size: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: 540;
+  font-weight: 600;
   border-radius: 5px;
-  border:1.5px black solid;
+  border:1px #5B21B6 solid;
   cursor: pointer;
 }
 #btn2  >button >a{
     text-decoration: none;
-    color: black;
+    color: #5B21B6;
 }
 
 .icons{
     display: flex;
     margin-top: 20px;
-    gap: calc(10px);
+    gap: calc(20px);
 }
 .icons >img{
     flex-direction: row;
-   width: 17px;
+   width: 30px;
    cursor: pointer;
 }
 .con2 >img{
@@ -478,39 +465,46 @@
     height: 450px;
 }
 main{
+  background: #E8ECF2;
+}
+.sets{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: #e9ebf1;
-    height: 200px;
-    margin-top: 30px;
-        animation-name: appear;
-        animation-duration: 2.5s;
-    animation-timing-function: linear;
+     background: #E8ECF2;
+    height: 300px;
+    margin-top: 50px;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .set1{
-    margin-left: 40px;
-    animation-name: appear;
+    margin-left: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .set1 >h3{
-   font-size: 14px;
+   font-size: 20px;
    color:  #5B21B6;
    font-family: "Inter", sans-serif;
    font-weight: 600;
+   margin-left: 10px;
 }
 .set1 >h1{
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
-    margin-top: 10px;
 }
 .set1 >p{
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 10px;
     font-family: "Inter", sans-serif;
     width: 45%;
-    opacity: 0.9;
-    font-weight: 400;
+    opacity: 0.4;
+    font-weight: 600;
 }
 .set2{
     display: flex;
@@ -560,67 +554,53 @@ main{
 section{
     animation-name: appear;
     animation-timeline: view();
-    animation-range: entry 0;
-    animation-timing-function:ease-in-out;
+    animation-range: entry ;
+    animation-timing-function:linear;
 }
 section >.sec1{
     display:flex;
-    justify-content: space-around;
-    gap: calc(60px);
-        margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 40px;
     animation-name: appear;
     animation-timeline: view();
     animation-range: entry 0;
-    animation-timing-function:ease-in-out;
+    animation-timing-function:linear;
     
 }
 #part1 >h3{
-    font-size: 14px;
+    font-size: 20px;
     color: #5B21B6;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
 }
 #part1 >h1{
-    font-size: 25px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: black;
 }
-#part2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 #part2 >p{
-    font-size: 11px;
+    font-size: 16px;
     font-family: "Inter", sans-serif;
-    width: 50%;
-    opacity: 0.5;
-    font-weight: 400;
 }
 
 .sec2{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;  
     margin-top: 50px;
-    animation-name: appear;
-    animation-timeline: view();
-    animation-range: entry 0;
-    animation-timing-function:ease-in-out;
 }
 
 #ma1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-        
+    flex-direction: column;        
 }
 #ma1 >img{
-    width: 80px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 #ma1 >p{
     font-size: 14px;
@@ -635,8 +615,8 @@ section >.sec1{
     flex-direction: column;
 }
 #ma2>img{
-    width: 80px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 #ma2 >p{
     font-size: 14px;
@@ -651,8 +631,8 @@ section >.sec1{
     flex-direction: column;
 }
 #ma3 >img{
-    width: 80px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 #ma3 >p{
     font-size: 14px;
@@ -667,8 +647,8 @@ section >.sec1{
     flex-direction: column;
 }
 #ma4 >img{
-    width: 80px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 #ma4 >p{
     font-size: 14px;
@@ -677,33 +657,30 @@ section >.sec1{
     font-weight: 500;
 }
 .sec3{
-    margin-top: 30px;
+    margin-top: 200px;
+        animation-name: appear;
+    animation-timeline: view();
+    animation-range: entry;
+    animation-timing-function:ease-in-out;
 }
+
 .one{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-#what1{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 #what1 >h3{
-    font-size: 14px ;
+    font-size: 20px ;
     color: #5B21B6;
     font-family: "Inter", sans-serif;
 }
 #what1 >h1{
-    font-size: 25px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
     width: 90%;
 
 }
 #what2 >P{
-    font-size: 12px;
+    font-size: 17px;
     font-family: "Inter", sans-serif;
-    width: 65%;
-    opacity: 0.7;
 }
 
 .two{
@@ -719,7 +696,8 @@ section >.sec1{
     flex-direction: column;
 }
 #img1 >img{
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 #img1 >h2{
     font-size:  16px;
@@ -732,7 +710,7 @@ section >.sec1{
    font-size: 12px;
    opacity: 0.7;
      font-family: "Inter", sans-serif;
-     width: 45%;
+     width: 70%;
 }
 #img2{
     display: flex;
@@ -741,7 +719,8 @@ section >.sec1{
     flex-direction: column;
 }
 #img2 >img{
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 #img2 >h2{
     font-size:  16px;
@@ -754,7 +733,7 @@ section >.sec1{
    font-size: 12px;
    opacity: 0.7;
      font-family: "Inter", sans-serif;
-     width: 65%;
+     width: 80%;
 }
 #img3{
     display: flex;
@@ -763,7 +742,8 @@ section >.sec1{
     flex-direction: column;
 }
 #img3 >img{
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 #img3 >h2{
     font-size:  16px;
@@ -776,7 +756,7 @@ section >.sec1{
    font-size: 12px;
    opacity: 0.7;
      font-family: "Inter", sans-serif;
-     width: 70%;
+     width: 80%;
 }
 #img4{
     display: flex;
@@ -785,7 +765,8 @@ section >.sec1{
     flex-direction: column;
 }
 #img4 >img{
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 #img4 >h2{
     font-size:  16px;
@@ -798,44 +779,40 @@ section >.sec1{
    font-size: 12px;
    opacity: 0.7;
      font-family: "Inter", sans-serif;
-     width: 75%;
+     width: 80%;
 }
-.content{
+footer{
+    margin-top: 100px;
+    justify-content: space-between;
+    background: #e2e4ea;
+}
+.footer{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: #e9ebf1;
-    margin-top: 30px;
-            animation-name: appear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 20%;
-    animation-timing-function: linear;
 }
-
-#con1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#con1{ 
+    margin-left: 40px;
     margin-top: 30px;
     line-height: 30px;
 }
 #con1 >h3{
-    font-size: 14px;
+    font-size: 20px;
     color: #5B21B6;
     font-weight: 600;
   font-family: "Inter", sans-serif;
 }
 #con1 >h1{
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
 }
 #con1 >p{
-    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
     width: 100%;
     font-family: "Inter", sans-serif;
-    opacity: 0.7;
-    line-height: 15px;
+    line-height: 10px;
 }
 #con2{
     display: flex;
@@ -855,7 +832,7 @@ section >.sec1{
     width: 25px;
 }
 #con2 >#imag1 >p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Inter", sans-serif;    
 }
 #con2 >#imag2{
@@ -870,7 +847,7 @@ section >.sec1{
     width: 25px;
 }
 #con2 >#imag2 >p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Inter", sans-serif;    
 }
 #con2 >#imag3{
@@ -885,47 +862,30 @@ section >.sec1{
     width: 25px;
 }
 #con2 >#imag3 >p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Inter", sans-serif;    
-}
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #10111F;
 }
 .foot1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
-}
-.foot1 >p{
-    font-size: 12px;
-    color: #fff;
-    font-family: "Inter", sans-serif; 
-    font-weight: 500;
-    margin-left: 8px;
-}
-.foot1 >h1{
-    font-size: 15px;
-    width: 100%;
-    color: #fff;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-}
-.foot1 >h1 >span{
-    color: #5B21B6;
-}
-.foot2{
-    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.foot2 >p{
-    font-size: 12px;
-    color: #fff;
-    font-family: "Inter", sans-serif; 
-    margin-right: 10px;
+#foot >h2{
+   font-size: 20px;
+   font-family: "Inter", sans-serif; 
+}
+#foot >h2 >span{
+    color: #5B21B6;
+}
+#foot2 >p{
+    font-size: 16px;
     font-weight: 500;
+     font-family: "Inter", sans-serif;  
 }
+#foot2 >p >span{
+    color: #5B21B6;
+}
+
+
+
