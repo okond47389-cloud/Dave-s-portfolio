@@ -341,6 +341,7 @@
 
 body{
     background-color:#E8ECF2;
+    min-height: 100dvh;
 }
 #progress{
     position: fixed;
@@ -416,6 +417,7 @@ body{
     animation-name: appear;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
+    min-height: 100dvh;
 } 
 
 .con1{
@@ -433,6 +435,9 @@ body{
 }
 
 .con1 >h3{
+    text-wrap: balance;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     font-size: 20px;
     color: #10111F;
@@ -518,6 +523,7 @@ body{
 }
 main{
   background: #E8ECF2;
+  min-height: 100dvh;
 }
 .sets{
     display: flex;
@@ -525,7 +531,6 @@ main{
     align-items: center;
      background: #E8ECF2;
     height: 300px;
-    margin-top: 50px;
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -609,7 +614,6 @@ section >.sec1{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 60px;
     margin-left: 15px;
 
     
@@ -819,6 +823,7 @@ section >.sec1{
 #img1 >P{
    font-size: 12px;
    opacity: 0.7;
+   text-wrap: balance;
      font-family: "Inter", sans-serif;
      width: 70%;
          animation: revel linear both;
@@ -843,6 +848,7 @@ section >.sec1{
     margin-top: 10px;
     font-family: "Inter", sans-serif;
     color: #5B21B6;
+    text-wrap: balance;
     font-family: 500;
         animation: revel linear both;
     animation-timeline: view();
@@ -853,6 +859,7 @@ section >.sec1{
    opacity: 0.7;
      font-family: "Inter", sans-serif;
      width: 80%;
+     text-wrap: balance;
          animation: revel linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
