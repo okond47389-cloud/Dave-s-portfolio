@@ -12,8 +12,8 @@
         flex-direction: column;
     }
     header >.header_container >.con1 >img{
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     }
     header >.header_container >.con1{
         display: flex;
@@ -22,13 +22,16 @@
         flex-direction: column;
     }
    header >.header_container >.con1 >h3{
-        font-size: 15px;
+        font-size: 20px;
     }
     .header_container >.con1 >h1{
         font-size: 25px;
     }
-    .header_container >.con1 >p{
-        font-size: 12px;
+    .header_container >.con1 >#p  >p{
+        font-size: 13px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
         color: #10111F;
     }
     .header_container >.con1 >.btn{
@@ -39,16 +42,16 @@
         gap: 7px;
     }
     .header_container >.con1 >.btn >#btn1 >button{
-        width: 110px;
+        width: 130px;
         height: 20px;
         font-size: 10px;
     }
         .header_container >.con1 >.btn >#btn2 >button{
-        width: 110px;
+        width: 130px;
         font-size: 10px;
     }
     .header_container >.con1 >.icons >img{
-        width: 30px;
+        width: 25px;
 
     }
     .header_container >.con2 >img{
@@ -62,6 +65,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top:30px;
     }
     main >.sets{
         display: flex;
@@ -70,13 +74,13 @@
         flex-direction: column;
     }
     main >.sets >.set1 >h3{
-        font-size: 18px;
-    }
-    main >.sets >.set1 >h1{
         font-size: 20px;
     }
+    main >.sets >.set1 >h1{
+        font-size: 25px;
+    }
     main >.sets >.set1 >p{
-        font-size: 12px;
+        font-size: 15px;
         width: 100%;
     }
     main >.sets >.set2{
@@ -99,6 +103,7 @@
     }
     main >.sets >.set2 >#im2 >p{
         font-size: 12px;
+        text-wrap: balance;
     }
         main >.sets >.set2 >#im3 >img{
         width: 20px;
@@ -120,10 +125,10 @@
         flex-direction: column;
     }
     section >.sec1 >#part1 >h3{
-        font-size: 16px;
+        font-size: 19px;
     }
     section >.sec1 >#part1 >h1{
-        font-size: 18px;
+        font-size: 22px;
     }
     section >.sec1 >#part2 >p{
         display: flex;
@@ -131,41 +136,41 @@
         align-items: center;
     }
     section >.sec1 >#part2 >p{
-        font-size: 10px;
+        font-size: 15px;
     }
-    section >.sec2{
+    section >.sec1 >.sec2{
+        margin-top: 50px;
         display: grid;
-        grid-template-columns: 180px 180px;
+        grid-template-columns: 150px 180px;
         justify-content:center;
         align-items: center;
-        column-gap: calc(-20px);
     }
-    section >.sec2 >#ma1 >img{
-        width: 90px;
-        height: 90px;
+    section >.sec1 >.sec2 >#ma1 >img{
+        width: 120px;
+        height: 110px;
     }
-    section >.sec2 >#ma1 >p{
+    section >.sec1 >.sec2 >#ma1 >p{
         font-size: 15px;
     }
-    section >.sec2 >#ma2 >img{
-        width: 90px;
-        height: 90px;
+    section >.sec1 .sec2 >#ma2 >img{
+        width: 120px;
+        height: 110px;
     }
-    section >.sec2 >#ma2 >p{
+    section >.sec1 >.sec2 >#ma2 >p{
         font-size: 15px;
     }
-        section >.sec2 >#ma3 >img{
-        width: 90px;
-        height: 90px;
+        section >.sec1 >.sec2 >#ma3 >img{
+        width: 120px;
+        height: 110px;
     }
-    section >.sec2 >#ma3 >p{
+    section >.sec1 >.sec2 >#ma3 >p{
         font-size: 15px;
     }
-    section >.sec2 >#ma4 >img{
-        width: 90px;
-        height: 90px;
+    section >.sec1 >.sec2 >#ma4 >img{
+        width: 120px;
+        height: 110px;
     }
-    section >.sec2 >#ma4 >p{
+    section >.sec1 >.sec2 >#ma4 >p{
         font-size: 15px;
     }
     section >.sec3 >.one >#what1{
@@ -175,10 +180,10 @@
        flex-direction: column;
     } 
     section >.sec3 >.one >#what1 >h3{
-        font-size: 16px;
+        font-size: 18px;
     }
     section >.sec3 >.one >#what1 >h1{
-        font-size: 18px;
+        font-size: 20px;
         
     }
     section >.sec3 >.one >#what2 >p{
@@ -187,7 +192,7 @@
         align-items: center;
     }
     section >.sec3  >.one >#what2 >p{
-        font-size: 10px;
+        font-size: 14px;
     }
     section >.sec3 >.two{
         display: grid;
@@ -204,9 +209,10 @@
       
     }
     section >.sec3 >.two >#img1 >p{
-        font-size: 9px;
+        font-size: 10px;
         width: 90%;
        display: flex;
+       text-wrap: balance;
        justify-content: center;
        align-items: center;
        margin-left: 20px;
@@ -218,9 +224,10 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img2 >p{
-        font-size: 9px;
+        font-size: 10px;
         width: 90%;
         display: flex;
+          text-wrap: balance;
        justify-content: center;
        align-items: center;
       
@@ -232,9 +239,10 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img3 >p{
-        font-size: 9px;
+        font-size: 10px;
         width: 100%;
         display: flex;
+          text-wrap: balance;
        justify-content: center;
        align-items: center;
        margin-left: 35px;
@@ -246,8 +254,9 @@
         font-size: 15px;
     }
     section >.sec3 >.two >#img4 >p{
-        font-size: 9px;
+        font-size: 10px;
         width: 80%;
+          text-wrap: balance;
         display: flex;
        justify-content: center;
        align-items: center;
@@ -267,19 +276,19 @@
         flex-direction: column;
     }
     .footer >#con1{
-        margin-top: 20px;
+    
     }
     .footer >#con1 >h3{
-        font-size: 16px;
+        font-size: 20px;
     }
     .footer >#con1 >h1{
-        font-size: 20px;
+        font-size: 25px;
     }
     .footer >#con1 >p{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 15px;
         width: 100%;
     }
     .footer >#con2{
@@ -293,14 +302,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: calc(10px);
+        gap: calc(8px);
         margin-top: 20px;
     }
     .footer >#con2 >#imag1 >img{
         width: 14px;
     }
     .footer >#con2 >#imag1 >p{
-        font-size: 12px;
+        font-size: 14px;
     }
         .footer >#con2 >#imag2{
         display: flex;
@@ -313,7 +322,7 @@
         width: 14px;
     }
     .footer >#con2 >#imag2 >p{
-        font-size: 12px;
+        font-size: 14px;
     }
         .footer >#con2 >#imag3{
         display: flex;
@@ -326,22 +335,21 @@
         width: 14px;
     }
     .footer >#con2 >#imag3 >p{
-        font-size: 12px;
+        font-size: 14px;
     }
     footer >.footer >.foot1{
         margin-bottom: 20px;
     }
    footer >.foot1 >#foot >h2{
-        font-size: 14px;
+        font-size: 18px;
     }
     .footer >#foot2 >p{
-        font-size: 8px;
+        font-size: 14px;
     }
 }
 
 body{
-    background-color:#E8ECF2;
-    min-height: 100dvh;
+    background-color:white;
 }
 #progress{
     position: fixed;
@@ -363,61 +371,6 @@ body{
     to{
         transform: scaleX(1);
     }
-}
-
-@keyframes headingmask {
- 0%{
-    opacity: 0;
-    transform: translateY(90px) scale(.55);
-    letter-spacing: 15px;
-    filter: blur(5px);
- }
-
- 60%{
-    transform: translateY(-10px) scale(1.05);
- }
-
- 100%{
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    letter-spacing: 0;
-    filter: blur(0);
- }
-}
-
-@keyframes revel {
-    from{
-        opacity: 0;
-        transform: perspective(1600px) rotateY(35deg) rotateX(25deg) translateY(150px) scale(.55);
-        filter: blur(10px);
-    }
-
-    60%{
-        transform: perspective(1600px)
-        rotateY(-5deg) scale(1.05);
-    }
-
-    to{
-        opacity: 1;
-        transform: perspective(1600px) rotateY(0) rotateX(0) translateY(0) scale(1);
-        filter: blur(0);
-    }
-}
-
-@keyframes slideinleft {
-    from{
-        transform: translateX(-200px);
-    }
-
-    to{
-        transform: translateX(0pz);
-    }
-}
-.header_container{ 
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    min-height: 100dvh;
 } 
 
 .con1{
@@ -425,7 +378,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .con1 >img{
     width: 120px;
@@ -435,7 +388,6 @@ body{
 }
 
 .con1 >h3{
-    text-wrap: balance;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -446,20 +398,20 @@ body{
 } 
 .con1 >h1{
     margin-top: 15px;
+        text-wrap: balance;
     font-size: 70px;
     color: #5B21B6;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
-.con1 >p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.con1 >#p >p{
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
     color: black;
-    margin-top: 15px;
-    font-weight: 600;
 }
 .btn{
     display: flex;
@@ -477,7 +429,6 @@ body{
   color: #fff;
   font-size: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
   border-radius: 5px;
   border: #5B21B6 solid;
   cursor: pointer;
@@ -497,7 +448,6 @@ body{
   background: transparent;
   font-size: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
   border-radius: 5px;
   border:1px #5B21B6 solid;
   cursor: pointer;
@@ -523,14 +473,15 @@ body{
 }
 main{
   background: #E8ECF2;
-  min-height: 100dvh;
+  margin-top: 15em;
+  border-radius: 20px;
 }
 .sets{
     display: flex;
     justify-content: space-between;
     align-items: center;
      background: #E8ECF2;
-    height: 300px;
+    height: 270px;
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -558,12 +509,11 @@ main{
     font-family: "Inter", sans-serif;
 }
 .set1 >p{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     font-family: "Inter", sans-serif;
-    width: 45%;
-    opacity: 0.4;
-    font-weight: 600;
+    opacity: 0.7;
+    font-weight: 500;
 }
 .set2{
     display: flex;
@@ -580,9 +530,8 @@ main{
 }
 #im1 >p{
     font-size: 13px;
-    width: 30%;
+    width:50%;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
 }
 #im2{
     display: flex;
@@ -595,9 +544,8 @@ main{
 }
 #im2 >p{
     font-size: 13px;
-    width:80%;
+    width:100%;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
 }
 #im3 >img{
     width: 40px;
@@ -607,13 +555,13 @@ main{
     font-size: 13px;
     width: 90%;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
 }
 
 section >.sec1{
     display:flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20em;
     margin-left: 15px;
 
     
@@ -648,8 +596,6 @@ section >.sec1{
 .sec2{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-
 }
 
 #ma1{
@@ -672,7 +618,7 @@ section >.sec1{
     font-size: 14px;
     color: black;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     animation: revel linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -701,7 +647,7 @@ section >.sec1{
     font-size: 14px;
     color: black;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     animation: revel linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -726,7 +672,7 @@ section >.sec1{
     font-size: 14px;
     color: black;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     animation: revel linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -752,13 +698,13 @@ section >.sec1{
     font-size: 14px;
     color: black;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     animation: revel linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
 .sec3{
-    margin-top: 100px;
+    margin-top: 20em;
 }
 .one{
     display: flex;
@@ -955,11 +901,10 @@ footer{
 }
 #con1 >p{
     margin-top: 10px;
-    font-weight: 600;
     font-size: 16px;
     width: 100%;
     font-family: "Inter", sans-serif;
-    line-height: 10px;
+    line-height: 9px;
 }
 #con2{
     display: flex;
